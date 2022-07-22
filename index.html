@@ -29,15 +29,14 @@
  
       <!--header-->
     <div class="container-fluid">
-    
-
+      
         <header class="row" id="header">
             <div class="index-image center-image">
-                
-              <nav id="navbar" class="container">
+                   
+                <nav id="navbar" class="container">
                  <div class="col-12"id="link-container">
                    <img src="../estagio/img/logo-in8-dev.svg"alt="logo"id="logo" >
-               
+     
                      <a href="#">cadastro</a>
                      <a href="#">lista</a>
                      <a href="#">sobre min</a>
@@ -46,8 +45,8 @@
                 </nav>
                   <div class="container-fluid">
                  <div class="row col-12" id="titulo">
-                  <h1 class="display-1">ESTAGIO</h1>
-                  <p><h3>PROVA DE SELEÇÃO</h3></p>
+                  <h1 class="display-1 opacity-50">ESTAGIO</h1>
+                  <p><h3 class="opacity-50">PROVA DE SELEÇÃO</h3></p>
                   </div>
                 </div>
             </div>
@@ -90,48 +89,98 @@
 
     <div class="container-fluid"id="lista">
         <div class="row col-12">
-            <h5 class="display-5">LISTA DE CADASTRO</h5>
+            <h4 class="display-5">LISTA DE CADASTRO</h4>
             <table id="myTable">
-                <tr>
-                  <td>nome</td>
-                  <td>email</td>
-                  <td>nascimento</td>
-                  <td>telefone</td>
-
-                </tr>
+                
+                <thead>
+                    <tr>
+                     
+                      <th scope="col">nome</th>
+                      <th scope="col">email</th>
+                      <th scope="col">nascimento</th>
+                      <th scope="col">telefone</th>
+                    </tr>
+                  </thead>
+                <!--  <tbody class="table-group-divider">
+                    
+                      <th scope="row">1</th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    
+                  </tbody>-->
             </table>
               <br>
         </div>
     </div>
-    
-    <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">nome</th>
-            <th scope="col">email</th>
-            <th scope="col">nascimento</th>
-            <th scope="col">telefone</th>
-          </tr>
-        </thead>
-        <tbody class="table-group-divider">
-          <tr>
-            <th scope="row">1</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-         
-        </tbody>
-      </table>
+ 
+
+   <!--teste de navbar-->
+
+   <nav class="navbar navbar-expand-md"id="testenavbar">
+    <div class="container-fluid">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!--<img src="../estagio/img/logo-in8-dev.svg"alt="logo"id="logo" >-->
+       
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 dropdown-menu col-12 justify-content-center">
+            
+           
+          <li class="nav-item ">
+            <a class="nav-link" aria-current="page" href="#">cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">lista</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">sobre min</a>
+          </li>       
+          
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <!---->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
     <footer>
         <div class="container-fluid"id="rodape">
@@ -145,8 +194,6 @@
     </footer>
 
       
-
-
     
 </body>
 </html>
