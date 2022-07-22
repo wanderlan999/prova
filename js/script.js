@@ -12,6 +12,7 @@ function myFunction() {
     var cell4 = row.insertCell(4);
     count++
     
+    
     cell0.innerHTML = count;
     cell2.innerHTML = document.getElementById("myEmail").value;
     cell1.innerHTML = document.getElementById("myNome").value;

@@ -1,11 +1,4 @@
-/*geral*/
 
-
-
-h1,h3,h5{
-    color: aliceblue;
-    
-}
 
 
 /*header*/
@@ -27,6 +20,7 @@ h1,h3,h5{
     text-align: center;
     padding-right:240px;
     margin-top: 60px;
+    color: aliceblue;
         
 }
 
@@ -70,8 +64,10 @@ margin-top: auto;
 #form-container{
     text-align: center;
     background-color: #29abe2;
-    height: 500px;
+    height: 450px;
     margin-top: -30px;
+    color: aliceblue;
+    padding-top: 15px;
     
    
     
@@ -103,18 +99,29 @@ margin-top: auto;
 }
 #myDate,#myNome,#myTel,#myEmail{
     color: rgb(251, 250, 250);
+    
 }
 
 
 /*lista de cadastro*/
+
+
 
 #lista{
     background-color: rgb(251, 250, 250);
     height: 400px;
     margin-top: 33px;
     padding:50px;
-    text-align: center;
-           
+    text-align:center;
+                      
+}
+
+#myTable{
+    color: #012d51;
+}
+
+#titulocadastro{
+    color: #29abe2;
 }
 
 table, td {
@@ -127,16 +134,8 @@ table, td {
 footer{
     background-image: url('../img/rodape-desktop.jpg');
     color: white;
-}
-
-
-#indexteste{
-  height: 600px;
-  margin-bottom: 100px;
- 
-
-}
-
-#testenavbar{
     
 }
+
+
+
